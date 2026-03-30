@@ -224,22 +224,17 @@ hr { border: none; border-top: 1px solid #e8eaf0; margin: 1rem 0; }
 # ─────────────────────────────────────────
 
 CATEGORIAS = {
-    "pollo":     "🍗 Pollo y Aves",
-    "carne":     "🥩 Carne de Res",
-    "cerdo":     "🐷 Cerdo",
-    "picadillo": "🌭 Picadillo y Perrito",
-    "mariscos":  "🦞 Pescado y Mariscos",
-    "lacteos":   "🧀 Lácteos",
-    "huevos":    "🥚 Huevos",
-    "arroz":     "🍚 Arroz",
-    "granos":    "🫘 Granos",
-    "harina":    "🍞 Harina y Pan",
-    "aceite":    "🫙 Aceite",
-    "vegetales": "🥦 Vegetales y Viandas",
-    "conservas": "🥫 Conservas",
-    "combos":    "📦 Combos",
-    "mayorista": "🏭 Mayorista",
-    "otros":     "🍽️ Otros",
+    "pollo":               "🍗 Pollo y Aves",
+    "cerdo":               "🐷 Cerdo",
+    "res":                 "🥩 Carne de Res",
+    "pescado_mariscos":    "🦞 Pescado y Mariscos",
+    "embutidos_procesados":"🌭 Embutidos y Procesados",
+    "lacteos_huevos":      "🧀 Lácteos y Huevos",
+    "granos_cereales":     "🍚 Granos y Cereales",
+    "aceites_condimentos": "🫙 Aceites y Condimentos",
+    "frutas_vegetales":    "🥦 Frutas y Vegetales",
+    "combos_variados":     "📦 Combos y Surtidos",
+    "otros":               "🍽️ Otros",
 }
 
 CATEGORIAS_LIMPIO = {k: v.split(" ", 1)[1] for k, v in CATEGORIAS.items()}
